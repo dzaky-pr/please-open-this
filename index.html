@@ -72,7 +72,7 @@
           preConfirm: () => {
             const login = Swal.getPopup().querySelector('#login').value;
             const password = Swal.getPopup().querySelector('#password').value;
-            if (!login || !password || !(password === '123' && login === '123')) {
+            if (!login || !password || !(password === 'tapiboong' && login === 'alethajelek')) {
               Swal.showValidationMessage(`Please enter with valid username and password`);
             }
             return { login: login, password: password };
