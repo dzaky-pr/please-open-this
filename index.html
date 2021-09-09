@@ -79,7 +79,8 @@
           },
         }).then((result) => {
           if (result.isConfirmed) {
-            Swal.fire(`Hello ${result.value.login}`.trim());
+            // Swal.fire(`Hello ${result.value.login}`.trim());
+            Swal.fire('Hello Aletha');
             $('#hidden-confirm').css('display', 'block');
           }
         });
